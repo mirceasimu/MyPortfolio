@@ -15,9 +15,24 @@ export const Skills = () => {
             </Card>
             <Container className="skills">
                 <Row>
-                    <Col style={{'flex-direction': 'column', 'display': 'flex', 'align-items': 'center'}}>
+                    <Col style={center_column}>
                         <h1>Programming</h1>
-                        <ProgressBar now={80} style={{width: 450}}/>
+                        <div style={{'display': 'flex', 'justify-align': 'center', 'align-items': 'center'}}>
+                            <h5 style={{float: 'left'}}>Java</h5> 
+                            <ProgressBar now={80} style={{width: 350, float: 'right', 'margin-left': '18px'}}/>
+                        </div>
+                        <div style={{'display': 'flex', 'justify-align': 'center', 'align-items': 'center'}}>
+                            <h5 style={{float: 'left'}}>Python</h5> 
+                            <ProgressBar now={60} style={{width: 350, float: 'right', 'margin-left': '18px'}}/>
+                        </div>
+                        <div style={{'display': 'flex', 'justify-align': 'center', 'align-items': 'center'}}>
+                            <h5 style={{float: 'left'}}>C++</h5> 
+                            <ProgressBar now={70} style={{width: 350, float: 'right', 'margin-left': '18px'}}/>
+                        </div>
+                        <div style={{'display': 'flex', 'justify-align': 'center', 'align-items': 'center'}}>
+                            <h5 style={{float: 'left'}}>Javascript</h5> 
+                            <ProgressBar now={50} style={{width: 350, float: 'right', 'margin-left': '18px'}}/>
+                        </div>
                     </Col>
                     <Col>
                         <h1>Projects 2 / 2</h1>
@@ -37,4 +52,10 @@ export const Skills = () => {
             </Container>
         </section>
     );
+}
+
+const center_column = {
+    'flex-direction': 'column',
+    'display': 'flex', 
+    'align-items': 'center'
 }
