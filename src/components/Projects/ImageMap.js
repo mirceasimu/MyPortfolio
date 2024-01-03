@@ -18,7 +18,7 @@ export const ImageMap = () => {
                     <p>This is a project that I started working on as a gift. It is to me a very important way of showing that if I 
                         put my mind to something, I can do it. It was not an easy task, since it was my first time working with 
                         both Frontend in general and making an Android application. I had to do a lot of research, learn a lot
-                        of new things and have a working prototype in just 3-4 months of my own deadline(May - August 2023). 
+                        of new things and have a working prototype in just 3-4 months of my own deadline (May - August 2023). 
                         I am very proud of the fact that I met my deadline and what I have managed to accomplish.
                     </p>
                     <p>
@@ -37,8 +37,8 @@ export const ImageMap = () => {
                         Here are some screeshots of the current prototype. Starting from the first to the last, you can see the
                         logo of the application that I have designed and made myself, the map with markers on different locations
                         in Europe, like Hague, Eindhoven in the Netherlands, the island Mallorca in Spain, Rome in Italy and a few
-                        other cities in Romania. If a marker is pressed, it will show its name(which is usually just the name of
-                        the location), for example Rome("Roma" in Romanian). If the name of the location is pressed, it will show
+                        other cities in Romania. If a marker is pressed, it will show its name (which is usually just the name of
+                        the location), for example Rome ("Roma" in Romanian). If the name of the location is pressed, it will show
                         the photos that are stored in the Firebase storage database for that location, so the photo memories made
                         in that location. If a photo is pressed, it will show the photo in a bigger size covering the entire screen.
                     </p>
