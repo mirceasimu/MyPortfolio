@@ -15,9 +15,9 @@ export const LumosNox = () => {
                 <h1>Lumos Nox</h1>
                 <div style={{content: 'auto', margin: '100px'}}>
                     <h3>Background and Goal</h3>
-                    <p>This is a group project of 5 people from all kinds of bachelors(my team had 2xComputer Science, 1xPsychology, 1xArchitecture, 1xBiomedical Engineering) 
+                    <p>This is a group project of 5 people from all kinds of bachelors (my team had 2xComputer Science, 1xPsychology, 1xArchitecture, 1xBiomedical Engineering) 
                          that I worked on for a Design Based Learning course at the Technical University of Eindhoven 
-                        in my second year of the Bachelor's degree(September - November of 2022). Since it is a DBL project, we are provided with 
+                        in my second year of the Bachelor's degree (September - November of 2022). Since it is a DBL project, we are provided with 
                         the general scheme of what we are supposed to do, and we have to come up with the rest of the details and procedures 
                         ourselves.
                     </p>
@@ -67,7 +67,7 @@ export const LumosNox = () => {
                         a button, such that even if the device itself is covering the light switch, you can still turn the light on 
                         or off by pressing this button. 
                     </p>
-                    <h6>Components: Arduino Nano, Servo Motor, nRF24L01+ module(wireless connection with the Sensor), Button</h6>
+                    <h6>Components: Arduino Nano, Servo Motor, nRF24L01+ module (wireless connection with the Sensor), Button</h6>
                     <div style={{display: 'flex', justifyContent: 'center', margin: '50px'}}>
                     <img src={ss1} alt="both" style={{height: '250px'}} />
                     <img src={ss2} alt="both" style={{height: '250px'}} />
@@ -83,7 +83,7 @@ export const LumosNox = () => {
                         and therefore a waste of energy. Once the user notices this, they can press a button on the Sensor, and this will 
                         send a signal to the Switch to turn the light off. The second button resets the device in case something does not work.
                     </p>
-                    <h6>Components: Arduino Nano, LED matrix, nRF24L01+ module(wireless connection with the Sensor), Buttons, Light Sensor</h6>
+                    <h6>Components: Arduino Nano, LED matrix, nRF24L01+ module (wireless connection with the Sensor), Buttons, Light Sensor</h6>
                     <div style={{display: 'flex', justifyContent: 'center', margin: '50px'}}>
                     <img src={ss5} alt="both" style={{height: '250px'}} />
                     <img src={ss4} alt="both" style={{height: '250px'}} />

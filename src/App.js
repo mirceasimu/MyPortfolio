@@ -15,7 +15,7 @@ import { EcoSchool } from './components/Projects/EcoSchool';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/MyPortfolio">
       <div className="App">
         <NavBar />
         <Routes>

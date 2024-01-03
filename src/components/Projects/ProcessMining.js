@@ -13,7 +13,7 @@ export const ProcessMining = () => {
                 <div style={{content: 'auto', margin: '100px'}}>
                     <h3>Background and Goal</h3>
                     <p>This is a group project of 5 people that I worked on for a Design Based Learning course at the Technical University of Eindhoven 
-                        in my second year of the Bachelor's degree(February - April of 2023). Since it is a DBL project, we are provided with 
+                        in my second year of the Bachelor's degree (February - April of 2023). Since it is a DBL project, we are provided with 
                         the general scheme of what we are supposed to do, and we have to come up with the rest of the details and procedures 
                         ourselves.
                     </p>
@@ -51,7 +51,7 @@ export const ProcessMining = () => {
                     <p>
                         The workload was split evenly between the 5 of us. If anyone had a more difficult task, the others would help him out 
                         after they were done with their task. We worked on two different datasets and we used as prediction models: a naive 
-                        estimator, linear regression(which was for the most part my task), decision trees, random forest, support vector machine(SVM), 
+                        estimator, linear regression (which was for the most part my task), decision trees, random forest, support vector machine (SVM), 
                         and then we worked on improving them in the coming weeks by using different techniques like feature selection and feature 
                         engineering, choosing only relevant features and also adding new ones based on existing ones. We would also work on improving 
                         the efficiency of the models so that they run in faster time.
