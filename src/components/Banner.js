@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { Container, Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
-import { ArrowRightCircle, ArrowRight } from "react-bootstrap-icons";
-import profile_pic from "../assets/images/profile_pic3.png";
+import { Container, Row, Col, OverlayTrigger, Tooltip, Button } from "react-bootstrap";
+import { ArrowRight } from "react-bootstrap-icons";
+import profile_pic from "../assets/images/profile_pic.png";
 
 export const Banner = () => {
     const [wordsNumber, setWordsNumber] = useState(0);
-    const toRotate = [ "Software Engineer", "Web Developer", "Programmer", "Student", "Handsome", "Studying Dutch", "Sports enjoyer", "Enthusiastic", "Listening to music", "Fan of space"];
+    const toRotate = ["Very active", "Watching a movie", "Software Engineer", "Web Developer", "Programmer", "Student", "Handsome", "Studying Dutch", "Sports enjoyer", "Enthusiastic", "Listening to music", "Fan of space"];
     const [text, setText] = useState('Student'); 
     const [toDoWord, setToDoWord] = useState('');
     const [limitCrossed, setLimitCrossed] = useState(false);
@@ -66,15 +66,15 @@ export const Banner = () => {
                         <h1>{`Mircea Simu`}</h1>
                         <h2>What am I? <ArrowRight/> 
                             <OverlayTrigger placement='right' delay={{show: 1000, hide: 500}} overlay={hover_response}>
-                            <button onClick={choose_function}>Generate</button>
+                            <Button onClick={choose_function}>Generate</Button>
                             </OverlayTrigger>
                         </h2>
                         <h2>{text}</h2>
                         <p>Hello, my name is Mircea and here are a few things about me:
                             Third year Computer Science and Engineering student at Eindhoven University of Technology. Currently studying the 5/8 Dutch course from the university. 
-                            I have a good work ethic and time management, having passed all my courses while also having worked part-time at Picnic for the last 2 years. I am enthusiastic and eager to learn 
+                            I have a good work ethic and time management, having passed all my courses while also working part-time at Picnic for the last 2 years. I am enthusiastic and eager to learn 
                             new things and would love to talk to you about this!</p>
-                        <button onClick={() => console.log('connect')}>Let's Connect bro <ArrowRightCircle size={25} /></button>
+                        {/* <button onClick={() => console.log('connect')}>Let's Connect bro <ArrowRightCircle size={25} /></button> */}
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={profile_pic} width="450" height="450" alt="Headder Img" />

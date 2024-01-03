@@ -144,15 +144,27 @@
 .banner {
    margin-top: 0;
    padding: 260px 0 100px 0;
-   background-image: url('./assets/images/background1.png');
+   background-image: url('./assets/images/background_space.jpg');
    background-position: top center;
    background-size: cover;
    background-repeat: no-repeat;
 }
 
+/* Skills */
 .skills {
-   padding: 260px 0 100px 0;
-   background-image: url('./assets/images/background1.png');
+   margin: 100px;
+   padding: 130px 0px 190px 0;
+   background-image: url('./assets/images/skills_rectangle.jpg');
+   background-position: top center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+/* Projects */
+.projects {
+   margin-top: 0;
+   padding: 75px 0 0px 0;
+   background-image: url('./assets/images/background_pink.jpg');
    background-position: top center;
    background-size: cover;
    background-repeat: no-repeat;
