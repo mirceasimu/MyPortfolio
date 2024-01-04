@@ -16,7 +16,7 @@ export const LumosNox = () => {
 
     return (
         <div>
-            <h1 >nu stiu de ce primul element e lipit de navbar, orice style ii dau</h1>
+            <h1 >this needs to be here</h1>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '100px'}}>
                 <h1>Lumos Nox</h1>
                 <div style={{content: 'auto', margin: '100px'}}>

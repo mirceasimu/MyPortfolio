@@ -16,7 +16,7 @@ export const ImageMap = () => {
       
     return (
         <div>
-            <h1 >nu stiu de ce primul element e lipit de navbar cu orice style ii dau</h1>
+            <h1 >this needs to be here</h1>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '100px'}}>
                 <h1>Image Map</h1>
                 <div style={{content: 'auto', margin: '100px'}}>
