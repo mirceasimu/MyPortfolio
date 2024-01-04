@@ -1,5 +1,6 @@
 import '../../App.css';
 import {Container, Row, Col} from 'react-bootstrap';
+import { useEffect } from 'react';
 
 import ss1 from '../../assets/images/Projects/imageMap/1.jpg';
 import ss2 from '../../assets/images/Projects/imageMap/2.jpg';
@@ -8,6 +9,11 @@ import ss4 from '../../assets/images/Projects/imageMap/4.jpg';
 import ss5 from '../../assets/images/Projects/imageMap/5.jpg';
 
 export const ImageMap = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
     return (
         <div>
             <h1 >nu stiu de ce primul element e lipit de navbar cu orice style ii dau</h1>

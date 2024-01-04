@@ -1,4 +1,5 @@
 import '../../App.css';
+import { useEffect } from 'react';
 
 import ss1 from '../../assets/images/Projects/portfolioWebsite/navbar.jpg';
 import ss2 from '../../assets/images/Projects/portfolioWebsite/banner.jpg';
@@ -6,6 +7,11 @@ import ss3 from '../../assets/images/Projects/portfolioWebsite/skills.jpg';
 import ss4 from '../../assets/images/Projects/portfolioWebsite/projects.jpg';
 
 export const PortfolioWebsite = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <div>
             <h1 >nu stiu de ce primul element e lipit de navbar, orice style ii dau</h1>

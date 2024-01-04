@@ -1,8 +1,13 @@
 import '../../App.css';
+import { useEffect } from 'react';
 
 import MovieClip from '../MovieClip';
 
 export const EcoSchool = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <div>

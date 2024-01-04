@@ -1,4 +1,5 @@
 import '../../App.css';
+import { useEffect } from 'react';
 
 import ss1 from '../../assets/images/Projects/lumosNox/1.jpg';
 import ss2 from '../../assets/images/Projects/lumosNox/2.jpg';
@@ -8,6 +9,11 @@ import ss5 from '../../assets/images/Projects/lumosNox/5.jpg';
 import design from '../../assets/images/Projects/lumosNox/design.jpg';
 
 export const LumosNox = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <div>
             <h1 >nu stiu de ce primul element e lipit de navbar, orice style ii dau</h1>

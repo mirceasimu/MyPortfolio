@@ -1,10 +1,16 @@
 import '../../App.css';
+import { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import ss1 from '../../assets/images/Projects/processMining/groupWork.jpeg';
 import ss2 from '../../assets/images/Projects/processMining/poster.jpeg';
 
 export const ProcessMining = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <div>
             <h1 >nu stiu de ce primul element e lipit de navbar, orice style ii dau</h1>
