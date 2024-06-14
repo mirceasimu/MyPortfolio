@@ -71,7 +71,7 @@ export const Banner = () => {
                         </h2>
                         <h2>{text}</h2>
                         <p>Hello, my name is Mircea and here are a few things about me:
-                            Third year Computer Science and Engineering student at Eindhoven University of Technology. Currently studying the 5/8 Dutch course from the university. 
+                            Third year Computer Science and Engineering student at Eindhoven University of Technology. Currently studying and have almost finished all Dutch courses from the university. 
                             I have a good work ethic and time management, having passed all my courses while also working part-time at Picnic for the last 2 years. I am enthusiastic and eager to learn 
                             new things and would love to talk to you about this!</p>
                         {/* <button onClick={() => console.log('connect')}>Let's Connect bro <ArrowRightCircle size={25} /></button> */}
