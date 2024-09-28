@@ -4,6 +4,7 @@ import portfolio from "../assets/images/profile_pic_1.png";
 import lumosnox from "../assets/images/lumos_nox2.jpg";
 import ecoschool from "../assets/images/eco_school.jpg"
 import processmining from "../assets/images/process_mining.jpg"
+import moonshot from "../assets/images/moonshot.png"
 
 import {useNavigate} from 'react-router-dom';
 
@@ -25,6 +26,7 @@ export const Projects = () => {
                     <Button onClick={() => navigate('/imageMap')}>View Project</Button>
                 </Card.Body>
                 </Card>
+
                 <Card style={{ width: '16rem', marginLeft: '100px',  padding: '0px' }}    >
                 <Card.Img variant="top" src={portfolio} />
                 <Card.Body>
@@ -35,6 +37,7 @@ export const Projects = () => {
                     <Button onClick={() => {navigate("/portfolioWebsite")}}>View Project</Button>
                 </Card.Body>
                 </Card>
+
                 <Card style={{ width: '16rem', marginLeft: '100px',  padding: '0px' }}    >
                 <Card.Img variant="top" src={processmining} />
                 <Card.Body>
@@ -57,6 +60,7 @@ export const Projects = () => {
                     <Button onClick={() => {navigate("/lumosNox")}}>View Project</Button>
                 </Card.Body>
                 </Card>
+
                 <Card style={{ width: '16rem', marginLeft: '100px',  padding: '0px' }}    >
                 <Card.Img variant="top" src={ecoschool} style={{width: 'auto'}}/>
                 <Card.Body>
@@ -65,6 +69,17 @@ export const Projects = () => {
                         A group project for creating a schematic of a school of the future and presenting it.
                     </Card.Text>
                     <Button onClick={() => {navigate("/ecoSchool")}}>View Project</Button>
+                </Card.Body>
+                </Card>
+
+                <Card style={{ width: '16rem', marginLeft: '100px',  padding: '0px' }}    >
+                <Card.Img variant="top" src={moonshot} style={{width: 'auto'}}/>
+                <Card.Body>
+                    <Card.Title>Moonshot</Card.Title>
+                    <Card.Text>
+                        My SEP project for visualizing GitHub repositories into diagrams.
+                    </Card.Text>
+                    <Button onClick={() => {navigate("/moonshot")}}>View Project</Button>
                 </Card.Body>
                 </Card>
             </div>

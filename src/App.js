@@ -12,6 +12,7 @@ import {PortfolioWebsite} from './components/Projects/PortfolioWebsite';
 import { ProcessMining } from './components/Projects/ProcessMining';
 import { LumosNox } from './components/Projects/LumosNox';
 import { EcoSchool } from './components/Projects/EcoSchool';
+import { Moonshot } from './components/Projects/Moonshot';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route element={<ProcessMining />} path="/processMining" />
           <Route element={<LumosNox />} path="/lumosNox" />
           <Route element={<EcoSchool />} path="/ecoSchool" />
+          <Route element={<Moonshot />} path="/moonshot"/>
         </Routes>
       </div>
     </Router>
